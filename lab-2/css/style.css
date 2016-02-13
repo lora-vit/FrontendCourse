@@ -1,0 +1,40 @@
+h1{
+	text-align: center;	
+	font-size: 2em; 
+}
+p,
+div{
+	font-size: 110%; 
+	font-family: Arial,Helvetica; 
+	color: blue;
+	text-align: center;
+}
+ul{
+	font-size: 130%; 
+	font-family:  Arial; 
+	color: red;
+	text-align: center;
+	font-style: italic;
+}
+ul li{
+	font-family: Verdana ; 
+	color: black;
+	text-align: center;
+	list-style: none; 
+	margin-left: 11%;
+	margin-right: 15%;
+}
+.user{
+	font-family: Arial;
+	text-align: center;
+	color: blue;
+}
+.main-border{
+	margin: 0 20% 0% 20%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+	padding: 10px;	
+	border-radius: 10px;
+} 
+.lv-ph{
+	text-align: center;
+}
