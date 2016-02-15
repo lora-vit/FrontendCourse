@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+<!--- -  - - - - - - - - - - - - - - - - - - -->
+.page-border{
+  background-color: #f9f9f9;
+}
+.block-full{
+  margin-top:0; 
+  margin-left:154px; 
+  margin-right: 154px;
+  background-color: white;
+}
+div.block-head{
+  height : 40px;  
+  padding-top: 10px;
+  margin-bottom: 20px; 
+  margin-left: 47px; 
+  margin-right:  47px; 
+  background-color: #585858; 
+  color: white;
+}
+div.block-mid{
+  margin-left: 47px; 
+  margin-right: 47px;   
+  height : 540px;  /*background-color: red;*/
+}
+div.block-left{   
+  float: left; 
+  width: 150px; 
+  height : 540px;  
+  margin-right: 20px;  /*border: 1px solid blue;  */
+}
+div.block-right{
+  float: left; 
+  width: 500px; 
+  height : 540px;
+  margin-left: 20px; /*border: 1px solid blue; */
+}
+div.block-footer{
+  height: 40px;    
+  margin-left: 47px; 
+  margin-right:  47px;
+  background-color: #e1e1e1;
+}
+.block-img{
+  width: 100%; 
+  height=300px;
+}
+
+<!--- -  - - - - - - - - - - - - - - - - - - -->
+
+ul.m-head{
+  list-style: none; 
+  font: 18px/39px Arial,sans-serif;
+  margin-left: 0px; 
+  padding-left: 0; 
+}
+ul.m-head li{
+  display: inline;
+  margin-left: 0px;  
+  padding-top: 0px;
+  padding-left: 40px;
+  padding-right:40px;
+}
+ul.m-head li:nth-child(2){
+  border-right:2px solid #838383; 
+  border-left: 2px solid #838383;
+  background-color: #3f3f3f;
+}
+<!--- -  - - - - - - - - - - - - - - - - - - -->
+div.m-div-side{
+  width: 150px;  
+  float: left; 
+  height : 640px; 
+  border: 1px solid blue;  
+  margin-right: 50px;
+}
+ul.m-side{
+  list-style: none; 
+  margin-left: 0px; 
+  padding-left: 0; 
+  padding-top: 0; 
+  height: 40px;
+}
+ul.m-side li{
+  border: 2px solid #c8c8c8;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul.m-side li:nth-child(3){
+  background-color: #f9f9f9;
+  padding-left: 30px;
+}
+<!--- -  - - - - - - - - - - - - - - - - - - -->
+.m-div-footer{
+  height: 40px;    
+  margin-left: 47px; 
+  margin-right:  47px;
+  background-color: #e1e1e1;
+}
+ul.m-footer{
+  list-style: none; 
+  margin-left: 0px; 
+  padding-left: 0; 
+  padding-top: 0; 
+  margin-right: 10px;
+  font-size: 16px;
+}
+ul.m-footer li{
+  display: inline; 
+  margin-left: 0;
+  margin-right: 20px; 
+  height: 40px;
+  padding-top: 0px;  
+  padding-right: 10px;
+}
+ul.m-footer li:last-child{
+  padding-left: 50px;
+}
+ul.m-footer li:nth-child(2){
+  text-decoration: underline;
+}
+<!--- -  - - - - - - - - - - - - - - - - - - -->
+
+
+
