@@ -6,10 +6,12 @@
 .page-border{
   background-color: #f9f9f9;
 }
-.block-full{
+div.block-full{
   margin-top:0; 
-  margin-left:154px; 
-  margin-right: 154px;
+  margin-left: 350px;
+  margin-right: 350px;
+ /* margin-left:154px; 
+  margin-right: 154px;*/
   background-color: white;
 }
 div.block-head{
@@ -23,20 +25,21 @@ div.block-head{
 }
 div.block-mid{
   margin-left: 47px; 
-  margin-right: 47px;   
-  height : 540px;  /*background-color: red;*/
+  margin-right: 47px; 
+margin-bottom: 20px;
+  height : 540px; /* background-color: red;*/
 }
 div.block-left{   
   float: left; 
-  width: 150px; 
+  width: 250px; 
   height : 540px;  
-  margin-right: 20px;  /*border: 1px solid blue;  */
+  margin-right: 25px;  /*border: 1px solid blue;  */
 }
 div.block-right{
   float: left; 
-  width: 500px; 
-  height : 540px;
-  margin-left: 20px; /*border: 1px solid blue; */
+  width: 580px; 
+  height : 540px;margin-right: 0;
+  margin-left: 25px; /*border: 1px solid blue; */
 }
 div.block-footer{
   height: 40px;    
