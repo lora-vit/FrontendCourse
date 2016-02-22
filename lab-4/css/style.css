@@ -26,6 +26,9 @@ body{
   overflow: hidden;
   /* border: 1px solid red;*/
 }
+.photo-size{
+  width: 100%;
+}
 ul.country{
   clear: right;
   float: right;
@@ -42,6 +45,7 @@ ul.country li{
   padding-top: 0px;  
   text-align: center;
 }
+
 div.block-menu{
   height : 40px;  
   line-height: 40px; 
@@ -59,6 +63,7 @@ ul.menu {
   margin-right: 0;
   padding-right: 0;
   width: 100%;
+
   box-shadow: 0px 4px 4px 0px rgba(119,119,120,0.66);
   /*  position: relative;*/
 }
@@ -77,7 +82,8 @@ ul.menu > li {
   height : 40px;  
   line-height: 40px; 
 
-  width: 150px;
+  width: 14.285%;
+  /*width: 150px;*/
   /*font-size: 16px;*/
 }
 ul.menu > li > a {
@@ -105,15 +111,18 @@ ul.menu > li > a {
       width: 140px;
       top: 37px;
       left: 0;
+      background-color: #343434;
       /*background-color: white;   */ 
-      /* box-shadow: 0 0 15px rgba(0,0,0,0.5);  */
+      box-shadow: 0 0 15px rgba(0,0,0,0.5); 
     }
     ul.submenu > li {
       display: block;
+      width: 140px;
     }
     ul.submenu > li > a {
-      display: block;
+
       padding: 10px;
+
       color: white;
       background-color: #343434;
       text-decoration: none;
@@ -189,12 +198,12 @@ p.m-size12{
 }
 
 #trip::after{ 
-    content: " "; 
-     position: absolute; 
-     border: 5px solid; 
-     border-color: white transparent transparent transparent; 
-     top: 40%; 
-   right: 9%; 
+  content: " "; 
+  position: absolute; 
+  border: 5px solid; 
+  border-color: white transparent transparent transparent; 
+  top: 40%; 
+  right: 9%; 
 } 
 
 /* .tr { 
@@ -209,7 +218,7 @@ p.m-size12{
   margin: 0 auto;
   border: 10px solid transparent;
   border-top-color: black;
-}*/
+  }*/
 /*div.page-border{ 
   background-color: #f9f9f9;
 }
