@@ -8,11 +8,14 @@ body{
  background: url(../img/az-background.jpg);     
  background-size: 100%;
 }
-
+.logo{
+  margin-left: 20px;
+}
 .head-right{
   float: right; 
   color:#68b4c7;
   margin-top: 10px;
+  margin-right: 20px;
 }
 .main{
 
