@@ -40,6 +40,10 @@ td {
 .color-black{
 	background: black;
 }
+.color-op{
+	background: black;
+	opacity: 0.95;
+}
 td.color-clear{
 	border: 10px solid #fff;
 	width: 100px;
