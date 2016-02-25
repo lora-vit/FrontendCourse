@@ -1,7 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-}
+
 /*.main{
 	margin-left: 10%;
 	padding-left: 100px;
@@ -53,7 +50,7 @@ margin-bottom: 5%;*/
   background: url(../img/fon.jpg) no-repeat;
   background-size: cover;	
   height: 800px;
-  width: 95%;
+ /* width: 95%;*/
   margin-left: 5%;
   /* ----------------------- */
 
