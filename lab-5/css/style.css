@@ -38,36 +38,17 @@ margin-bottom: 5%;*/
 /* background-size: 100%;*/
 /*}*/
 
-
 .main{
-	/* ----------этот кусочек работает-------------*/
-	/*background-color: red;
-	height: 800px;
-	width: 90%;
-	margin-left: 5%;*/
-  /* -----------------------*/
 
   background: url(../img/fon.jpg) no-repeat;
   background-size: cover;	
-  height: 800px;
- /* width: 95%;*/
-  margin-left: 5%;
-  /* ----------------------- */
-
-  /*width: 100%; */
-	/*margin-left: 20%;
-	margin-right: 20%;*/
-  /*	background-size: 100% 800px;*/
+  height: 900px;
 }
 .head-menu{ 
   background-color: #085595; /*red;*//*#085595;*/
-  color: #60b5ed;
-  /* width: 1215px; */
+  color: #60b5ed; 
   height: 36px; 
-  line-height: 36px;
-  /*border: 1px solid blue;*/
-
-
+  line-height: 36px; 
 } 
 .container{
  float: right;
@@ -83,7 +64,6 @@ margin-bottom: 5%;*/
   padding-left: 10px;
 }
 
-
 .line-menu li:hover{ 
   margin: 0; 
   padding-right: 10px;
@@ -92,9 +72,11 @@ margin-bottom: 5%;*/
   background: #4eabda; 
   color: white; 
 } 
+
 .left-bord{
   border-left: 2px solid #56a2dc; 
 }
+
 .minhas{
   color: white;
 }
@@ -120,7 +102,7 @@ margin-bottom: 5%;*/
    height: 500px;
    width: 500px;
    opacity: 0.8;
-   margin: 80px auto;
+   margin: 50px auto;
 	/*margin-left: 300px;
 	margin-top: 150px;*/
 	/*text-align: center;*/
@@ -145,13 +127,16 @@ margin-bottom: 5%;*/
  background: url(../img/input-focus.png);     
  border-bottom: 2px solid #689bcc; 
 } 
+.form-se input:first-child{
+  margin-bottom: 10px;
+}
 .img-height{
   height: 18px;
 }
 .facebook { 
-margin: auto;
- margin-top: 30px; 
- width: 240px; 
+  margin: auto;
+  margin-top: 30px; 
+  width: 240px; 
 
 } 
 .facebook img { 
