@@ -188,6 +188,8 @@ p{
 	text-align: center;
 }
 p.cadast{
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 24px;
   color: white;
 }
