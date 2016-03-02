@@ -9,20 +9,22 @@
 <body>
 	<div class="page">
 		<header>
-			<div class="head-line">
-				<div class="teleph"></div><span>(044)123-45-67 (044)567-89-10</span>
-				<div class="registr">
-					<form action="#">
+			<div class="head-line clearfix">
+				<!-- <div class="teleph"></div> -->
+				<img class="tel" src="img/tel.png" alt= "tel"> <span>(044)123-45-67 (044)567-89-10</span>
+				<div class="registr clearfix">
+					<form  action="#" style="display: inline-block;">
 						<img  src="img/avtoriz.png" alt= "header"> 
 						<input type="text" name="login"  placeholder="логин">
-						<input type="password" name="pass"  placeholder="пароль">  
-						<ul>
-							<li>вход</li>
-							<li>регистрация</li>
-							<li>забыли пароль</li>						
-						</ul>
+						<input type="password" name="pass"  placeholder="пароль"> 
+						<input type="submit" name="in" value="вход"> 	
+ 
 					</form>
-
+					 <ul>							
+							<li>регистрация</li>
+							<li>забыли пароль?</li>						
+						</ul>
+                       
 				</div>
 				<div class="line-three">
 					<img  src="img/go-home.png" alt= "i4"> 
@@ -50,27 +52,27 @@
 		<div class="main clearfix">
 			<div class="block-left">
 				<div class="katalog"><img  src="img/katalog.png" alt= "i7"><span>КАТАЛОГ ПРОДУКЦИИ</span></div>
-				<div class="katalog"><img  src="img/m.png" alt= "i7"><span>ШИНЫ</span></div>
+				<div class="subkatalog"><img  src="img/m.png" alt= "i7"><span>ШИНЫ</span></div>
 				<ul >
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 1</li>			
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 2</li>
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 3</li>
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 4</li>			
+					<li>Наименование 1</li>			
+					<li>Наименование 2</li>
+					<li>Наименование 3</li>
+					<li>Наименование 4</li>			
 				</ul>
 
-				<div class="katalog"><img  src="img/m.png" alt= "i7"><span>ДИСКИ</span></div>
+				<div class="subkatalog"><img  src="img/m.png" alt= "i7"><span>ДИСКИ</span></div>
 				<ul >
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 1</li>			
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 2</li>
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 3</li>
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 4</li>			
+					<li>Наименование 1</li>			
+					<li>Наименование 2</li>
+					<li>Наименование 3</li>
+					<li>Наименование 4</li>			
 				</ul>
-				<div class="katalog"><img  src="img/m.png" alt= "i7"><span>БОЛТЫ</span></div>
+				<div class="subkatalog"><img  src="img/m.png" alt= "i7"><span>БОЛТЫ</span></div>
 				<ul >
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 1</li>			
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 2</li>
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 3</li>
-					<li><img  src="img/fl-small.png" alt= "i7">Наименование 4</li>			
+					<li>Наименование 1</li>			
+					<li>Наименование 2</li>
+					<li>Наименование 3</li>
+					<li>Наименование 4</li>			
 				</ul>
 			</div>
 			<div class="block-middle">
@@ -156,8 +158,9 @@
 				<!--    -->
 			</div>
 			<div class="block-right">
-				<div class="katalog"><img  src="img/katalog.png" alt= "i7"><span>БРЕНДЫ</span></div>
-				<div class="katalog"><img  src="img/m.png" alt= "i7"><span>ШИНЫ</span></div>
+
+				<!-- <div class="katalog"><img  src="img/katalog.png" alt= "i7"><span>БРЕНДЫ</span></div>
+				<div class="subkatalog"><img  src="img/m.png" alt= "i7"><span>ШИНЫ</span></div>
 				<ul>
 					<li><img  src="img/fl-small.png" alt= "i7">Бренд 1</li>			
 					<li><img  src="img/fl-small.png" alt= "i7">Бренд 2</li>
@@ -165,12 +168,26 @@
 
 				</ul>
 
-				<div class="katalog"><img  src="img/m.png" alt= "i7"><span>ДИСКИ</span></div>
+				<div class="subkatalog"><img  src="img/m.png" alt= "i7"><span>ДИСКИ</span></div>
 				<ul>
 					<li><img  src="img/fl-small.png" alt= "i7">Бренд 1</li>			
 					<li><img  src="img/fl-small.png" alt= "i7">Бренд 2</li>
 					<li><img  src="img/fl-small.png" alt= "i7">Бренд 3</li>	
-				</ul>
+				</ul> -->
+				<div class="katalog"><img  src="img/katalog.png" alt= "i7"><span>БРЕНДЫ</span></div>
+					<form action="#"> 
+ 	                    <div class="subkatalog"><img  src="img/m.png" alt= "i7"><span>ШИНЫ</span></div>
+						<label ><input type="checkbox"  value="1" name="www">Бренд 1</label> 
+						<label ><input type="checkbox"  value="2" name="www">Бренд 2</label> 
+						<label ><input type="checkbox"  value="3" name="www">Бренд 3</label> 
+						<div class="subkatalog"><img  src="img/m.png" alt= "i7"><span>ДИСКИ</span></div>
+						<label ><input type="checkbox"  value="4" name="www">Бренд 1</label> 
+						<label ><input type="checkbox"  value="5" name="www">Бренд 2</label> 
+						<label ><input type="checkbox"  value="6" name="www">Бренд 3</label>	 
+						<button type="submit">ВЫБРАТЬ</button> 
+
+					</form>
+
 			</div>
 		</div>
 
