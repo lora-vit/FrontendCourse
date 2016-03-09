@@ -1,4 +1,4 @@
-*{
+﻿*{
 	margin: 0;
 	padding: 0;
 }
@@ -23,6 +23,9 @@ header span{
 }
 .head-line{
   display: inline-block;
+}
+.head-line span{
+font-family:Arial;
 }
 .teleph{
   background: url(../img/trubka.png) no-repeat center center, url(../img/pic-circus.png) no-repeat center;
@@ -185,6 +188,7 @@ margin-bottom: 11px;
 .seek-left{
   width: 412px; 
   height: 134px;
+margin-left:3px;
   float: left; 
   display: inline-block; 
   border: 1px solid #b3b3b4; 
@@ -203,6 +207,7 @@ margin-bottom: 11px;
   box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75); 
 
   margin-left: 16px; 
+margin-right:3px;
 
 }
 .seek-right{
@@ -212,15 +217,16 @@ margin-bottom: 11px;
   border: 1px solid #b3b3b4; 
   border-radius: 10px; 
   box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75); 
-  margin-left: 11px;
+  margin-left: 3px;
   float: right; 
 }
 /* ----------------------------------------------------------- */
 .main{
-  margin-top: 15px;
+  margin-top: 5px;
   width: 909px; 
   overflow: hidden; 
  font-family: "Lucida Sans Unicode"; 
+margin-bottom:40px;
 }
 .block-left{
   width: 188px; 
@@ -243,7 +249,7 @@ margin-bottom: 11px;
    height: 15px; 
    margin-left: 36px; 
    line-height: 15px; 
-   margin-bottom: 10px; 
+   margin-bottom: 4px; 
  }
  .block-left li:hover { 
  /* font-size: 13px; */
@@ -413,7 +419,7 @@ border-bottom: 2px solid #58697f;
   .foot1{
     padding: 0 auto;
     height: 50px;
-    border: 1px solid blue; 
+  /*  border: 1px solid blue; */
     text-align: center;
   }
   .foot1 img{
@@ -424,7 +430,7 @@ border-bottom: 2px solid #58697f;
 
     height: 100px;
     background: #213a4d;
-    border: 1px solid red; 
+   /* border: 1px solid red; */
     width: 100%;
 
   }
