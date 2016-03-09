@@ -74,11 +74,13 @@ margin-bottom: 6px;
  .registr input:last-child{ 
   border: none; 
  width: 28px; 
-  color: red; 
+  
  background-color: transparent; 
  padding:0; 
 margin: 4px 1px 0 -2px; 
   cursor: pointer; 
+    font-size: 12px; 
+  color: white;
  }
 .registr ul{
   display: inline-block;
@@ -89,18 +91,19 @@ margin: 4px 1px 0 -2px;
   font-size: 12px; 
   line-height: 12px;
   font-family: "Lucida Sans Unicode"; 
-
-  color: green;
 }
+
 .registr ul li:first-child{  
  border-left:1px solid white; 
  padding-left: 2px;
+ color: white;
 }
 
 .registr ul li:last-child{  
 
  text-decoration: underline;
  padding-left: 20px;
+ color:#bfbfbf;
 }
 /*  -------------------------------------------------------------------- */
 .line-three {
@@ -125,6 +128,60 @@ margin: 4px 1px 0 -2px;
   display: block;
 }
 /* ----------------------------------------------------------- */
+
+ .line-menu { 
+  width: 907px; 
+  height: 32px; 
+  border:1px solid #0a1030; 
+  background:linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%); 
+/* background: linear-gradient(135deg, #2989d8 0%,#3a4046 0%,#3a4046 0%,#3a4046 0%,#3a4046 33%,#020202 100%);*/
+  border-radius: 4px; 
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75); 
+   margin-top: 7px; 
+margin-bottom: 11px;
+  font-family: "Lucida Sans Unicode"; 
+  line-height:32px;     
+ }
+
+.line-menu ul{
+  display: inline-block;
+  margin-left: 128px;
+
+}
+
+.line-menu  li {
+  display: inline-block;
+  font-size: 12px; 
+  line-height: 12px;
+  font-family: "Lucida Sans Unicode"; 
+  padding-left: 15px;
+ 
+}
+.line-menu a{
+  color: #889194; 
+  text-decoration: none;
+}
+.zakaz {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 11px;
+  margin-left: 150px;
+}
+.zakaz> span {
+  display: inline-block;
+ /* margin-right: 20px;*/
+  color: #889194; 
+}
+.zakaz> span:nth-child(3) {
+  color:#0d5a8f;
+  margin-right: 16px;
+}
+.zakaz> span:nth-child(5) {
+  color:#0d5a8f;
+  margin-right: 16px;
+}
+/* ----------------------------------------------------------- */
+/*            ЦЕНТРАЛЬНАЯ ЧАСТЬ                                */
 .seek-left{
   width: 412px; 
   height: 134px;
@@ -160,6 +217,7 @@ margin: 4px 1px 0 -2px;
 }
 /* ----------------------------------------------------------- */
 .main{
+  margin-top: 15px;
   width: 909px; 
   overflow: hidden; 
  font-family: "Lucida Sans Unicode"; 
