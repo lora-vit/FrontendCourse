@@ -13,7 +13,7 @@ html, body {
   font-family: "lucida Sans", Arial, sans-serif; 
 }
 .page{
-  width: 924px;
+  width: 912px;
   margin: auto;
  /* margin-left: 45px;
  margin-right: 45px;*/
@@ -21,15 +21,17 @@ html, body {
 
 header{
   display: block;
+  margin-top: 16px;
+  border: 1px solid blue;
 }
 .head-line{
   position: relative;
-  margin-top: 45px;
-  margin-left: -1px;
-}
+    margin-left: -5px;
+    margin-top: 3px;
+  }
 .head-img{
-  margin-top: 7px;
-  margin-left: -4px;
+  margin-top: 7px;  
+  margin-left: -6px;
 }
 header span{
  margin-left: 30px;
@@ -167,7 +169,7 @@ div.line-three>a {
   margin-bottom: 11px;
   font-family: "Lucida Sans Unicode"; 
   line-height:32px;     
-  margin-left: -2px;
+  margin-left: -5px;
   margin-top: 3px;
 }
 
@@ -212,7 +214,7 @@ div.line-three>a {
 /* ----------------------------------------------------------- */
 /*            ЦЕНТРАЛЬНАЯ ЧАСТЬ                                */
 .seek-left{
-  width: 412px; 
+  width: 411px; 
   height: 134px;
   margin-left: 1px;
   float: left; 
@@ -232,8 +234,8 @@ div.line-three>a {
   border-radius: 10px; 
   box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75); 
 
-  margin-left: 16px; 
-  margin-right:3px;
+  margin-left: 15px; 
+  margin-right: 10px;
 
 }
 .seek-right{
@@ -243,7 +245,7 @@ div.line-three>a {
   border: 1px solid #b3b3b4; 
   border-radius: 10px; 
   box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75); 
-  margin-right: 23px;
+  margin-right: 13px;
   
   float: right; 
 }
