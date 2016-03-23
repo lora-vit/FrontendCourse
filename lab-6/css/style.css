@@ -25,16 +25,16 @@ header{
   border: 1px solid blue;
 }
 .head-line{
-  position: relative;
-    margin-left: -5px;
-    margin-top: 3px;
-  }
+
+  margin-left: -5px;
+  margin-top: 3px;
+}
 .head-img{
-  margin-top: 7px;  
-  margin-left: -6px;
+  margin-top: 10px;  
+  /* margin-left: -6px;*/
 }
 header span{
- margin-left: 30px;
+ margin-left: 36px;
  font-size: 18px;
  letter-spacing: 0.5px;
  color: #5e696d;
@@ -43,12 +43,13 @@ header span{
 }
 .contacts{
   display: inline-block;
+  position: relative;
 }
 .tel{   
   width: 22px; 
   position: absolute;
-  top: 1px;
-  left: 5px; 
+  top: -4px;
+  left: 12px;
 } 
 .registr{
  display: inline-block;
@@ -58,7 +59,7 @@ header span{
  box-shadow: 1px 1px 6px rgba(0,0,0,0.5); 
  border-radius: 3px;  
 
- padding-bottom: 3px;
+ margin-top: -2px;
 
  margin-left: 11px;
  padding-left: 6px;
@@ -132,18 +133,18 @@ header span{
 }
 */
 .line-three {
-  
-    float: right;
-    height: 20px;
-    border-radius: 10px;
-    border: 1px solid #bdc4c7;
-    margin-top: -2px;
-    margin-right: 27px;
-    box-sizing: border-box;
-    padding-top: 1px;
-    padding-left: 9px;
-    padding-right: 7px;
-    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+
+  float: right;
+  height: 20px;
+  border-radius: 10px;
+  border: 1px solid #bdc4c7;
+  margin-top: -2px;
+  margin-right: 13px;
+  box-sizing: border-box;
+  padding-top: 1px;
+  padding-left: 9px;
+  padding-right: 7px;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
 }
 div.line-three>a {
   display: inline-block;
@@ -169,13 +170,13 @@ div.line-three>a {
   margin-bottom: 11px;
   font-family: "Lucida Sans Unicode"; 
   line-height:32px;     
-  margin-left: -5px;
+  
   margin-top: 3px;
 }
 
 .line-menu ul{
   display: inline-block;
-  margin-left: 128px;
+  margin-left: 130px;
 
 }
 
@@ -216,7 +217,7 @@ div.line-three>a {
 .seek-left{
   width: 411px; 
   height: 134px;
-  margin-left: 1px;
+  margin-left: 5px;
   float: left; 
   display: inline-block; 
   border: 1px solid #b3b3b4; 
@@ -235,7 +236,7 @@ div.line-three>a {
   box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75); 
 
   margin-left: 15px; 
-  margin-right: 10px;
+
 
 }
 .seek-right{
@@ -245,18 +246,18 @@ div.line-three>a {
   border: 1px solid #b3b3b4; 
   border-radius: 10px; 
   box-shadow: 0px 5px 5px 0px rgba(104, 104, 104, 0.75); 
-  margin-right: 13px;
+  margin-right: 9px;
   
   float: right; 
 }
 /* ----------------------------------------------------------- */
 .main{
   margin-top: 5px;
-  width: 909px; 
+  /*width: 909px; */
   overflow: hidden; 
   font-family: "Lucida Sans Unicode"; 
   margin-bottom:17px;
-  padding-left: 10px;
+  /* padding-left: 10px;*/
 }
 .block-left{
   width: 188px; 
@@ -275,7 +276,7 @@ div.line-three>a {
 }
 .block-left > ul{
   margin-top: -12px;
-  margin-left: -6px;
+  margin-left: 6px;
   margin-bottom: 21px;
   margin-bottom: -9px;
 }
@@ -314,14 +315,15 @@ div.line-three>a {
   border: 1px solid #a8b7be; 
   border-radius: 3px; 
   
-  margin-left: -9px;
+  margin-left: 5px;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
 }
 .block-right{
-  width: 188px; 
+  width: 177px; 
   margin-top: 10px;
   /*height: 100%;*/
+  margin-left: 5px;
   float: right;        
   padding-bottom: 20000px;
   margin-bottom: -20000px;
@@ -421,7 +423,7 @@ div.line-three>a {
   margin-top: 5px; 
   margin-bottom: 15px; 
   line-height: 24px; 
-  margin-left: -14px;
+
 }
 .katalog img{ 
   display: inline-block; 
@@ -451,11 +453,11 @@ div.line-three>a {
   box-shadow: 0px 3px 3px 0px rgba(150, 150, 150, 0.75);
   font-size: 12.73px;
   color: #114165;
-  margin-top: 3px;
+  margin-top: 2px;
   margin-bottom: 15px;
   line-height: 24px;
   padding-left: -3px;
-  margin-left: -9px;
+  margin-left: 4px;
 }
 .subkatalog > ul{
   margin-top: 3px;
@@ -470,11 +472,7 @@ div.line-three>a {
 .subkatalog>input{
  font-family: "Lucida Sans Unicode",Arial,sans-serif; 
 } 
-.subcatalog> label { 
- font-size: 13px; 
- line-height: 25px; 
- padding-left: 8px; 
-} 
+
 /* ---------------------------------------------------------------------- */
 .katalog__right{
   width: 180px; 
@@ -494,7 +492,7 @@ div.line-three>a {
   float: left; 
   width: 22px; 
   height: 21px; 
-  margin: 1px  2px 0; 
+  margin: 1px  3px 0; 
 }
 .subkatalog__right{
  width: 137px; 
@@ -542,7 +540,7 @@ div.line-three>a {
   height: 100px;
   background: #213a4d;
   /* border: 1px solid red; */
-  margin-right: 17px;
+  /*margin-right: 17px;*/
 
 }
 .footer-img{
