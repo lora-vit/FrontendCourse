@@ -17,6 +17,7 @@
 	padding-right: 1px;
 }
 input{
+	display: inline-block;
 	margin-left: 5px;
 }
 .tooltip{
