@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Запуск функций</title>	
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript"src="jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="lodash.js"></script>
+	<script type="text/javascript" src="funct.js"></script>
+	
+	<h1>Test</h1>
+	<h2>Exersise Template</h2>
+
+</head>
+<body>
+	<script type="text/template" id="template">
+<div id="tester">
+		<h2><%-name%></h2>
+
+		<ol>
+			<% questions.forEach(function(item){ %>
+
+			<li><%-item.question%></li>
+
+			<% for ( i=0; i<item.answers.length; i++) {%>
+			<label>
+				<input type="radio" name="<%-item.ind%>" 
+				value="<%-item.answers[i]%>"
+
+				> 
+				<%-item.answers[i]%>           
+			</label>
+
+			<%}%>
+
+			<%})%>
+
+		</ol>
+
+		<button id="verifyTest">send answers</button>
+		</div>
+	</script>
+	<button id="createTest">Begin test</button>
+
+	<div id="modal_form"><!-- Сaмo oкнo --> 
+		<span id="modal_close">X</span> <!-- Кнoпкa зaкрыть --> 
+		<!-- Тут любoе сoдержимoе -->
+		<br/>
+		<h3>Результат тестирования</h3>
+		<hr color="red" size="3">
+		<span id="modal_container1">Правильных ответов: </span>
+		<hr color="red" size="3">
+		<span id="modal_container2">Это - </span>
+		<hr color="red" size="3">
+		<span id="modal_container3"></span>
+	</div>
+	<div id="overlay"></div><!-- Пoдлoжкa -->
+</body>
+</html>
