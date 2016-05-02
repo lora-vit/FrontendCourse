@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box1 {
+
+	width: 30%;	
+	float: left;
+
+}
+#box2 {
+	width: 20%;
+	display: inline-block;
+	border: 1px solid #4f9fd9;	
+}
+.box3 {
+	z-index: 1;
+	width: 15%;
+	float: left;
+	
+}
+.clear:after {
+	display: block;
+	content: ' ';
+	clear: both;
+	float: none;   
+}
+#carousel{
+	position: relative;
+	margin-left: 30px;
+}

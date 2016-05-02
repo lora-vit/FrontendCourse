@@ -1,0 +1,95 @@
+
+.menu, .menu li, .menu ul, .menu a, .menu:after {
+
+	z-index: 5;
+
+}
+.menu:after {
+	display: block;
+	content: ' ';
+	clear: both;
+	float: none;   
+}
+li {
+	list-style: none; 
+	white-space: nowrap; 
+}
+.menu-item{
+	display: inline-block;
+	width: 125px;
+	background-color: green;
+	text-align: center;
+	position: relative;
+}
+.submenu{
+position: relative;	
+	display: none;
+}
+.tr2 {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+}
+.submenu-item{	
+
+	width: 115px;
+	background-color: green;
+	text-align: center;
+	position: relative;
+	
+	padding: 4px 4px 4px;
+
+	border: 1px solid grey;
+	
+}
+
+.menu-item:hover,
+.submenu-item:hover{
+	transition: all 0.5s ease-out;	
+	background-color: blue;
+}
+
+ul.menu:after {
+	display: block;
+	content: ' ';
+	clear: both;
+	float: none;   
+}
+
+.active-down{
+	position: absolute;
+	width: 100%;	
+	top: 100%;
+	left: 0;
+}
+.active-right{
+	
+	position: absolute;	
+	width: 100%;
+	top: 0;
+	left: 100%;
+}
+
+.menu a{
+	text-decoration: none;
+	color: yellow;
+
+}
+.dropdown >a::after{ 
+	content: " "; 
+	position: absolute;
+	border: 5px solid; 
+	border-color: white transparent transparent transparent; 
+	top: 40%; 
+	right: 9%; 
+}
+.dropright >a::after{ 
+	content: " "; 
+	position: absolute;
+	border: 5px solid transparent;	border-left: 5px solid white;
+	top: 30%; 
+	right:-2%; 
+}
+

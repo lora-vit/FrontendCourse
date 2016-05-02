@@ -1,0 +1,64 @@
+.niceCheck {  
+ width: 17px;  
+height: 17px;  
+display: inline-block;  
+cursor: pointer;        
+background: url(../img/checkbox-sprite.png);  
+}  
+.niceCheck input {  
+ display: none;  
+}  
+
+
+
+input[type=checkbox] {  
+
+     position: absolute;  
+
+    clip: rect(0, 0, 0, 0);  
+
+ }  
+
+.lab {  
+
+     cursor: pointer;  
+
+ }  
+
+ .lab:before {  
+
+    content: "";  
+
+    display: inline-block;  
+
+     width: 17px;  
+
+    height: 17px;  
+
+     background: url(../img/checkbox-sprite2.png);  
+
+    position: relative;  
+
+     top: 3px;  
+
+   /*  margin-left: 15px; */ 
+
+ }  
+
+ input[type=checkbox]:checked + .lab:before {  
+
+ background-position: 0 -17px;  
+
+ }  
+
+.lab:hover:before {  
+
+ background-position: 0 -34px;  
+
+ }  
+
+input[type=checkbox]:checked + .lab:hover:before {  
+
+background-position: 0 -51px;  
+
+ } 

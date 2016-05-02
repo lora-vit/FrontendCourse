@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MIX-Плагины</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>	
+	<link rel="stylesheet" type="text/css" href="css/niceCheck-style.css">	
+	<link rel="stylesheet" href="css/jquery.checkbox-rm.css">
+	<link rel="stylesheet" type="text/css" href="css/carousel.css" /> 
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jqmin.js"></script>
+
+	
+	<link rel="stylesheet" type="text/css" href="css/nice-select.css"> 
+	<script type="text/javascript" src="js/jquery.nice-select.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/menu-style.css">
+
+</head>
+<body>
+<br/>
+<h1>Тестирование плагинов</h1><br/>
+	<!-- меню -->
+	<ul class="menu ">
+		<li class="menu-item"><a href="#">Nav 1</a></li>
+		<li class="menu-item"><a href="#">Nav 2</a></li>
+		<li class="menu-item dropdown"><a href="#"  >Nav 3</a>
+			<ul class="submenu">
+				<li class="submenu-item"><a href="#">Подпункт 3.1</a></li>
+				<li class="submenu-item"><a href="#">Подпункт 3.2</a></li>
+				<li class="submenu-item"><a href="#">Подпункт 3.3</a></li>
+				<li class="submenu-item dropright"><a href="#">Подпункт 3.4</a>
+					<ul class="submenu">
+						<li class="submenu-item"><a href="#">Подпункт 3.4.1</a></li>
+						<li class="submenu-item dropright"><a href="#">Подпункт 3.4.2</a>
+							<ul class="submenu">
+								<li class="submenu-item"><a href="#">Подпункт 3.4.2.1</a></li>
+								<li class="submenu-item"><a href="#">Подпункт 3.4.2.2</a></li>
+								<li class="submenu-item"><a href="#">Подпункт 3.4.2.3</a></li>
+								<li class="submenu-item"><a href="#">Подпункт 3.4.2.4</a></li>
+								<li class="submenu-item"><a href="#">Подпункт 3.4.2.5</a></li>
+							</ul>
+						</li>
+						<li class="submenu-item"><a href="#">Подпункт 3.4.3</a></li>
+						<li class="submenu-item"><a href="#">Подпункт 3.4.4</a></li>
+						<li class="submenu-item"><a href="#">Подпункт 3.4.5</a></li>
+					</ul>		
+				</li>
+				<li class="submenu-item"><a href="#">Подпункт 3.5</a></li>
+			</ul>	
+		</li>
+		<li class="menu-item"><a href="#">Nav 4</a></li>			
+		<li class="menu-item"><a href="#">Nav 5</a></li>
+	</ul>	
+	<!-- меню -->
+
+	<div class="clear">
+		<div class="box3">
+			<div class="selector">
+				<select>
+					<option data-display="Выбор сезона"></option>
+					<option value="1">Зима</option>
+					<option value="2">Весна</option>
+					<option value="3">Лето</option>
+					<option value="4">Осень</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="box1">	
+
+			<input type="checkbox" id="test-check1" > 
+			<label for="test-check1" class="lab">   box-css</label> 
+
+
+			<input class="checkCustom" type="checkbox" value="Y" name="checkbox1" id="checkbox1" checked>
+			<label for="checkbox1">box-jquery</label>
+
+			<input class="checkCustom" type="checkbox" value="N" name="checkbox2" id="checkbox2">
+			<label for="checkbox2">box-jquery</label>
+
+		</div>
+	</div>
+	<div id="carousel">
+		<div id="wrapper"> 
+			<div id="container">   	
+				<img src="img/img1.jpg" alt="Cuba" />
+				<img src="img/img2.jpg" alt="Cuba" />
+				<img src="img/img3.jpg" alt="Cuba" />
+				<img src="img/img4.jpg" alt="Cuba" />
+				<img src="img/img5.jpg" alt="Cuba" />
+			</div>
+			<img id="carouselLeft" src="img/leftArr.jpg" alt="Left Arrow" />
+			<img id="carouselRight" src="img/rightArr.jpg" alt="Right Arrow" />
+		</div>	
+	</div>	
+
+	<script src="js/jquery.checkbox-rm.js" ></script> 
+	<script type="text/javascript" src="js/click-carousel.js"></script>
+
+	<script type="text/javascript">	
+
+	// -----------------------------------------------------------------
+
+	$('select').niceSelect();
+
+	$('.checkCustom').checkboxRM();
+
+	$("#container").clickCarousel({margin: 10});
+
+	// -----------------------------------------------------------------
+	$('.dropdown').mouseleave(function(){
+		$(this).children('.submenu').slideUp('fast');
+	});	
+
+	$('.dropdown').mouseenter(function(){
+		$(this).children('.submenu').addClass('active-down');
+		$(this).children('.submenu').slideDown('slow');
+
+	});	
+
+	$('.dropright').mouseenter(function(){
+		$(this).children('.submenu').addClass('active-right');
+		$(this).children('.submenu').slideDown('slow');
+
+	});	
+
+	$('.dropright').mouseleave(function(){
+		$(this).children('.submenu').slideUp('fast');
+	});	
+
+	// -----------------------------------------------------------------		
+
+</script>
+</body>
+</html>
