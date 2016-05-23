@@ -1,0 +1,6 @@
+.header{
+	width: 100%;
+	background: url(../img/bg-high.jpg) ;
+-ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/bg-high.jpg',sizingMethod='scale')";    	
+
+}
