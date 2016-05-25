@@ -124,14 +124,15 @@
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 		height: 487px;
-		padding: 9% 0 4%;
+	
+		padding: 100px 0 68px;
 	}
 
 	.comment{
 		width: 44%;
 		float: left;
 		height: 271px;
-		padding: 3% 3.5%;
+		/*padding: 3% 3.5%;*/
 		margin-left: 3%;
 	}
 
@@ -165,7 +166,7 @@
 
 	.butns-white{
 		bottom: 8%;
-		right: 65%;
+		/*right: 65%;*/
 		transform: translate(-30%, -25%);
 	}
 
