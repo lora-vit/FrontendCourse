@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MVC</title>
+  <link rel="stylesheet" href="css/style.css"/>
+ 
+  <!-- <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="js/tmpl.js"></script>
+ -->
+  <script data-main="js/app" src="js/require.js"></script>
+
+</head>
+<body>
+<h1>Form</h1>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<script type="text/template" id="wrapper-template">
+<div class="wrapper">
+
+<ul class="item-list"></ul>
+
+<div class="controlls">
+<input type="text" class="item-value">
+<input type="button" class="item-up" value="Update" disabled>
+<input type="button" class="item-add" value="Append">
+</div>
+
+</div>  
+</script>
+
+<script type="text/template" id="list-template">
+
+<% for (var i=0; i< data.length; i++) { %>
+
+<li type="square"><%= data[i] %>
+<span data-value="<%= data[i] %>" class="item-edit">[Edit]</span>
+<span data-value="<%= data[i] %>" class="item-delete">[X]</span></li>
+
+<% }; %>
+
+ 
+</script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+li{
+	background-color: #B03060;
+	color: #000;
+	font-size: 30px;
+margin-bottom: 10px;
+width: auto;
+
+}
+.wrapper
+{
+	width: 40%;
+}
+.item-value{
+	margin-left: 40px;
+	height: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #D8BFD8;
+}
+
+.item-edit{
+	float: right;
+	color: #D8BFD8;
+}
+.item-delete{
+	float: right;
+
+}
+.item-add , .item-up{
+font-size: 25px;
+	background-color: #DB7093;
+	color: #000;
+	float: right;
+}
+.item-up[disabled]{
+	font-style: italic;
+}
+.control{
+padding: 0;
+}
