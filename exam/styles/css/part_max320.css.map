@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oCAAqC;EAErC,YAAa;IACT,KAAK,EAAE,KAAK;IACZ,eAAe,EAAE,WAAW;IAC5B,UAAU,EAAE,4BAA4B;;EAG5C,YAAa;IACT,KAAK,EAAE,KAAK;;EAGhB,QAAS;IACL,IAAI,EAAE,CAAC;IACP,MAAM,EAAE,IAAI",
+"sources": ["../scss/part_max320.scss"],
+"names": [],
+"file": "part_max320.css"
+}

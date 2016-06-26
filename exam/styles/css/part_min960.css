@@ -1,0 +1,166 @@
+@media screen and (min-width: 960px) {
+  .line-header {
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center; }
+
+  .line-footer {
+    margin-top: 2500px; }
+
+  .wrapper {
+    width: 940px;
+    left: 50%;
+    margin-left: -470px; }
+
+  .header__login {
+    margin-top: 39px;
+    margin-right: -1px; }
+  .header__logo {
+    margin-top: 46px;
+    margin-left: 0; }
+  .header__title {
+    font-size: 51px;
+    text-indent: 0;
+    letter-spacing: 0; }
+  .header__title-1 {
+    font-size: 51px;
+    margin-top: 141px;
+    font-size: 52px; }
+  .header__title-2 {
+    font-size: 51px;
+    margin-top: 0px; }
+  .header__about {
+    margin: 24px auto;
+    font-size: 24px;
+    width: 500px; }
+
+  sign {
+    margin-right: 0; }
+
+  .content {
+    margin-top: 328px; }
+
+  .content__head {
+    letter-spacing: -0.4px;
+    font-size: 23px;
+    margin-left: -3px; }
+
+  /* -----------------------CAROUSEL------------------------------*/
+  .carousel {
+    margin: 34px auto; }
+
+  .carousel-wrapper {
+    margin-top: 0px; }
+
+  .jcarousel {
+    width: 300px;
+    height: 100%; }
+
+  .jcarousel li {
+    width: 300px; }
+
+  .jcarousel li img {
+    margin-top: 0px; }
+
+  .carousel-control {
+    display: inherit; }
+
+  .jcarousel-prev {
+    margin-top: 142px; }
+
+  .jcarousel-next {
+    margin-left: 247px;
+    margin-top: 144px; }
+
+  .step {
+    margin-top: 228px;
+    margin-left: 22px; }
+
+  .step-2 {
+    margin-top: 257px;
+    margin-left: 20px; }
+
+  .carousel-heading {
+    margin-top: 264px; }
+
+  .heading-2 {
+    margin-top: 294px; }
+
+  .carousel-text {
+    margin-top: 334px;
+    width: 276px; }
+
+  .content__head-2 {
+    margin-top: 99px;
+    width: 100%; }
+
+  /*------------------  PERSONES -------------------*/
+  .persones {
+    margin-top: 33px;
+    height: 250px; }
+
+  .persone {
+    margin-right: 20px;
+    height: 240px;
+    width: 220px; }
+    .persone__about {
+      margin-top: 14px; }
+    .persone__num-1 {
+      margin-left: 0; }
+    .persone__num-3 {
+      margin-left: 0;
+      margin-top: 0px; }
+    .persone__num-4 {
+      margin-top: 0px;
+      margin-right: 0; }
+
+  /*------------------  SEE -------------------*/
+  .see-partners {
+    margin: 23px auto;
+    height: 36px;
+    width: 187px; }
+
+  .content__head-3 {
+    margin-top: 95px; }
+
+  .searching {
+    margin-top: 22px;
+    margin-left: -2px; }
+
+  /*------------------  masonry -------------------*/
+  .masonry-layout {
+    width: 100%;
+    margin-top: 33px; }
+
+  .grid-item {
+    width: 259px;
+    height: 309px;
+    margin-bottom: 20px; }
+
+  .grid-item--width2 {
+    width: 577px; }
+
+  .search-form__sarea {
+    margin-left: 262px; }
+
+  /*------------------  footer -------------------*/
+  .footer {
+    height: 150px; }
+    .footer__logo {
+      margin-left: 0;
+      margin-top: 12px; }
+    .footer__companies {
+      margin-left: 97px;
+      margin-top: 2px; }
+    .footer__partners {
+      margin-left: 93px; }
+
+  .make__logo {
+    margin-left: 0;
+    float: right; }
+
+  .make__logo-title {
+    text-indent: 28px; } }
+
+/*# sourceMappingURL=part_min960.css.map */

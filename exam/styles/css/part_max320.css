@@ -1,0 +1,14 @@
+@media screen and (max-width: 320px) {
+  .line-header {
+    width: 320px;
+    background-size: 320px 538px;
+    background: url(../../img/mobile-bg.png); }
+
+  .line-footer {
+    width: 320px; }
+
+  .wrapper {
+    left: 0;
+    margin: auto; } }
+
+/*# sourceMappingURL=part_max320.css.map */

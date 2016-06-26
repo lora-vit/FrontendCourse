@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Urlaubsgl&uuml;ck</title>
+    <!-- <link rel="stylesheet" href="css/main.min.css"> -->
+    <link rel="stylesheet" href="styles/css/main.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    
+    <script src="lib/jquery-1.12.4.min.js" charset="utf-8"></script>
+    <script src="lib/jquery.jcarousel.min.js" charset="utf-8"></script>
+    <script src="lib/jquery.masonry.min.js" charset="utf-8"></script>
+    <script src="lib/templ.js" charset="utf-8"></script>
+    <!-- <script src="js/main.min.js" charset="utf-8"></script> -->
+    <script src="js/main.js" charset="utf-8"></script>
+    <style type="text/css">
+        .grid-sizer{
+            width:33%;
+        }
+    </style>
+   
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a href="#" class="header__login sign">Sign up</a>
+            <a href="#" class="header__login ">Log in</a>
+            <p class="header__logo">Urlaubsgl&uuml;ck</p>
+            <div class="clear"></div>
+            <h2 class="header__title header__title-1">Share your</h2>
+            <h2 class="header__title header__title-2">Holiday Dreams</h2>
+            <p class = "header__about">And find the perfect partner to fullfill it</p>
+       
+
+            <p class="search" id="search-free">
+            <a href="#">Find your holiday partner</a>
+            </p>
+            
+        </div>
+        <div class="content">
+            <p class="content__head content__head-1">How Urlaubsgl&uuml;ck works?</p>
+            <div class="carousel">
+                <div class="carousel-wrapper">
+                    <div class="jcarousel">
+                        <ul>
+                            <li><img src="img/carousel-img1.png" alt="image1" /></li>
+                            <li><img src="img/carousel-img2.png" alt="image2" /></li>
+                            <li><img src="img/carousel-img3.png" alt="image3" /></li>
+                        </ul>
+                        <div class="carousel-control jcarousel-prev"></div>
+                        <div class="carousel-control jcarousel-next"></div>
+                        <p class="step">step 1</p>
+                        <p class="carousel-heading">Sed leo enim, condimentum</p>
+                        <p class="carousel-text">
+                            Quisque libero libero, dictum non turpis in,
+                            luctus semper lorem.
+                            Donec rhoncus a leo sit amet facilisis.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-wrapper">
+                    <div class="jcarousel">
+                        <ul>
+                            <li><img src="img/carousel-img2.png" alt="image2" /></li>
+                            <li><img src="img/carousel-img3.png" alt="image3" /></li>
+                            <li><img src="img/carousel-img1.png" alt="image1" /></li>
+                        </ul>
+                        <div class="carousel-control jcarousel-prev"></div>
+                        <div class="carousel-control jcarousel-next"></div>
+                        <p class="step st-2">step 2</p>
+                        <p class="carousel-heading h-2">Morbi velit risus</p>
+                        <p class="carousel-text text-2">
+                            Nulla venenatis tempor dui in molestie.
+                            Nulla quis dictum purus, sit amet porttitor est.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-wrapper">
+                    <div class="jcarousel">
+                        <ul>
+                            <li><img src="img/carousel-img3.png" alt="image3" /></li>
+                            <li><img src="img/carousel-img1.png" alt="image1" /></li>
+                            <li><img src="img/carousel-img2.png" alt="image2" /></li>
+                        </ul>
+                        <div class="carousel-control jcarousel-prev"></div>
+                        <div class="carousel-control jcarousel-next"></div>
+                        <p class="step">step 3</p>
+                        <p class="carousel-heading">Sed leo enim, condimentum</p>
+                        <p class="carousel-text">
+                            Quisque libero libero, dictum non turpis in,
+                            luctus semper lorem.
+                            Donec rhoncus a leo sit amet facilisis.
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <p class="content__head content__head-2">Meet a partner for your best holiday</p>
+            <div class="persones">
+                <script type="text/template" id="persones">
+                    <% for(var i = 0; i<4; i++){ %>
+                    <div class = "persone persone__num-<%= i+1 %>">
+                     
+                            <div class="persone__foto">
+                                <img class="persone__big" src="<%= data[i].photo %>" alt="image">
+                                <img class="persone__small" src="<%= data[i].pict %>" alt="image">
+                              
+                            </div>
+                      
+                        <p class="persone__name"><%= data[i].name %></p>
+                        <p class="persone__about"><%= data[i].about  %></p>
+                    </div>
+                    <% } %>
+                    <div class="clear"></div>
+                </script>                 
+            </div>
+   
+ <div class="searching">
+            <input type="button" id="see-partners"  class="search-button" value="See other partners">
+            </div>
+       
+           
+
+            <p class="content__head content__head-3">Discover holiday activity ideas</p>
+        </div>
+        <div class="masonry-layout">
+            <div class="grid">
+
+
+             <div class="grid-item"></div>
+             <div class="grid-item"></div>
+             <div class="grid-item"></div>
+             <div class="grid-item"></div>
+             <div class="grid-item grid-item--width2"></div>
+             <div class="grid-item grid-item--width2"></div>
+             <div class="grid-item"></div>
+
+
+         </div>
+     </div>
+     <div class="search-form">
+        <p class="search-form__heading">Discover holiday activity ideas</p>
+        <p class="search-form__heading-small">Hi! What are your holiday interests?</p>
+        <input type="text" class = "search-form__sarea" placeholder="Enter your interests">
+        <input type="button" id="search-form__sideas" class = "search-button" value="Search partners">
+    </div>
+    <div class="footer">
+        <p class="footer__logo">Urlaubsgl&uuml;ck</p>
+        <div class="footer__companies">
+            <p class="footer__company">company</p>
+            <ul class="footer__complist">
+                <li>About</li>
+                <li>Contacts</li>
+                <li>Press</li>
+                <li>Blog</li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <p class="footer__partners">partners</p>
+        <div class="make__logo">
+            <p class="make__logo-title">Designed by</p>
+            <img class="make__logo-img" src="img/makelogo.png" alt="logo"/>
+        </div>
+    </div>
+</div>
+<div class="line-header"></div>
+<div class="line-footer"></div>
+
+</body>
+</html>

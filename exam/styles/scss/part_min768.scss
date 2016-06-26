@@ -1,0 +1,186 @@
+@media screen and (min-width: 768px) {
+  .line-header {
+    height: 700px;
+    width: 100%;
+    background-size: cover; 
+  }
+
+  .line-footer {
+    margin-top: 2758px; 
+  }
+
+  .wrapper {
+    width: 748px;
+    left: 50%;
+    margin-left: -374px; 
+  }
+  .header{
+  &__login {
+      margin-top: 38px; 
+  }
+  &__logo {
+      margin-left: 38px;
+      margin-top: 45px; 
+  }
+  &__title {
+      font-size: 51px;
+      text-indent: 0;
+      letter-spacing: 0;
+       }
+  &__title-1 {
+      font-size: 51px;
+      margin-top: 141px;
+      font-size: 52px; }
+  &__title-2 {
+      font-size: 51px;
+      margin-top: 0px; }
+  &__about {
+      margin: 24px auto;
+      font-size: 24px;
+      width: 500px; }
+  }
+  .sign {
+      margin-right: 36px; 
+  }
+  .search {
+      margin: 31px auto;
+      padding: 13px 13px 11px 12px; }
+  .content {
+      margin-top: 328px; }
+   .content__head {
+        letter-spacing: -0.4px;
+        font-size: 23px; 
+        margin-left: 9px;}
+ .carousel {
+        margin: 34px auto; }
+  .carousel-wrapper {
+          margin-top: 0px; }
+  .jcarousel {
+            width: 236px;
+            height: 100%; }
+ .jcarousel li {
+              width: 300px; }
+ .jcarousel li img {
+                margin-top: 0px; }
+ .carousel-control {
+              display: inherit; }
+ .jcarousel-next {
+              margin-left: 187px;
+              margin-top: 30px; }
+  .jcarousel-prev {
+              margin-top: 30px; }
+  .step {
+              margin-top: 212px; }
+  .step-2 {
+              margin-top: 258px; }
+ .carousel-heading {
+              margin-top: 247px; }
+   .heading-2 {
+              margin-top: 293px; }
+  .carousel-text {
+              margin-top: 316px;
+              margin-left: 19px;
+              width: 230px; }
+   .text-2 {
+              margin-top: 333px;
+              width: 182px; }
+
+/*----------------------------------------------------------------*/              
+ .content__head-2 {
+        width: 100%;
+        margin-top: 100px; 
+        margin-left: 0px;
+  }
+ .persones {
+        height: 515px;
+        margin-top: 30px; }
+.persone {
+          width: 255px;
+          height: 221px;
+          margin-right: 0; 
+&__about {
+            margin: 10px auto; }
+&__num-1 {
+          margin-left: 120px; }
+&__num-3 {
+          margin-top: 40px;
+          margin-left: 119px; }
+&__num-4 {
+          margin-top: 39px; }
+
+}
+#see-partners{
+            width: 191px;
+          }
+.see-partners {
+        margin: 18px auto;
+        height: 36px;
+        width: 187px; }
+ 
+.content__head-3 {
+        margin-top: 98px; 
+        margin-left: 0px;
+}
+.masonry-layout {
+      width: 100%;
+      margin-top: 33px; 
+}
+.grid-item {
+        width: 195px;
+        height: 309px;
+        margin-bottom: 20px; 
+}
+.image-item {
+          margin-top: 139px; }
+.grid-item--width2 {
+        width: 452px; }
+.searching{
+          margin-top: 17px;
+        }
+
+ .search-form__heading {
+      margin-top: 74px; 
+  }
+ .search-form__heading-small {
+      margin-top: 32px; 
+  }
+.search-form__sarea {
+      width: 239px;
+      margin-top: 37px;
+      margin-left: 167px; 
+}
+.search-button {
+      width: 161px;
+      height: 39px;
+      margin-left: 6px; 
+}
+#search-form__sideas{
+  width: 161px;
+  margin-left: 6px;
+}
+ .footer {
+      margin-top: 128px;
+      height: 150px; 
+  &__logo {
+        float: left;
+        margin-left: 29px;
+        margin-top: 11px; }
+  &__companies {
+        float: left;
+        margin-left: 85px; }
+  &__complist {
+          margin-left: 0px;
+          margin-top: 14px; }
+  &__complist li {
+            float: none;
+            margin-top: 7px; }
+  &__partners {
+        float: left;
+        margin-left: 105px; }
+  }
+ .make__logo {
+        float: left;
+        margin-left: 120px; } 
+}
+
+
