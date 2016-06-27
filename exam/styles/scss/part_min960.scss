@@ -39,7 +39,7 @@
 
 }
 
-sign {
+.sign {
       margin-right: 0; 
 }
 .content {
@@ -92,16 +92,16 @@ sign {
           margin-right: 20px;
           height: 240px;
           width: 220px; 
-  &__about {
+&__about {
             margin-top: 14px; 
- }
- &__num-1 {
+}
+&__num-1 {
           margin-left: 0; 
 }
 &__num-3 {
           margin-left: 0;
           margin-top: 0px; 
-          }
+}
 &__num-4 {
           margin-top: 0px;
           margin-right: 0; 
@@ -111,14 +111,19 @@ sign {
 .see-partners {
         margin: 23px auto;
         height: 36px;
-        width: 187px; }
+        width: 187px; 
+}
 
-  .content__head-3 {
-        margin-top: 95px; }
-        .searching{
+.content__head-3 {
+        margin-top: 95px; 
+}
+.searching {
           margin-top: 22px;
           margin-left: -2px;
-        }
+}
+#see-partners {
+  margin-top:0px;
+}
 /*------------------  masonry -------------------*/
 .masonry-layout {
       width: 100%;
@@ -126,11 +131,15 @@ sign {
   .grid-item {
         width: 259px;
         height: 309px;
-        margin-bottom: 20px; }
+        margin-bottom: 20px; 
+        }
   .grid-item--width2 {
         width: 577px; }
  .search-form__sarea {
       margin-left: 262px; }
+.search-form__heading{
+  margin-top:76px;
+}
 /*------------------  footer -------------------*/
   .footer {
       height: 150px; 
@@ -139,7 +148,7 @@ sign {
         margin-top: 12px;}
   &__companies {
         margin-left: 97px;
-        margin-top: 2px; 
+        margin-top: 1px; 
   }
   &__partners {
         margin-left: 93px; 

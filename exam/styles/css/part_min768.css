@@ -120,7 +120,8 @@
       margin-top: 39px; }
 
   #see-partners {
-    width: 191px; }
+    width: 191px;
+    margin-top: 0px; }
 
   .see-partners {
     margin: 18px auto;
@@ -150,7 +151,7 @@
     margin-top: 17px; }
 
   .search-form__heading {
-    margin-top: 74px; }
+    margin-top: 71px; }
 
   .search-form__heading-small {
     margin-top: 32px; }

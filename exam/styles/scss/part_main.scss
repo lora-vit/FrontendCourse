@@ -288,7 +288,7 @@
         color: #FFF; 
       }
 .content__head-3 {
-      margin-top: 28px; }
+      margin-top: 36px; }
 
 .btn__seek{
     margin: 20px auto;
@@ -303,7 +303,8 @@
   color: red;
   background-color: white;
   border: 2px red solid;
-  width: 250px;
+   margin-top: -9px;
+  width: 279px;
 }
 .searching
 {
@@ -340,6 +341,7 @@
       clear: both; }
  .search-form__heading {
     font-size: 21px;
+    margin-left:-3px;
     margin-top: 27px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;

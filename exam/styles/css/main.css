@@ -266,7 +266,7 @@
   color: #FFF; }
 
 .content__head-3 {
-  margin-top: 28px; }
+  margin-top: 36px; }
 
 .btn__seek {
   margin: 20px auto;
@@ -280,7 +280,8 @@
   color: red;
   background-color: white;
   border: 2px red solid;
-  width: 250px; }
+  margin-top: -9px;
+  width: 279px; }
 
 .searching {
   /* margin: 12px auto;*/
@@ -321,6 +322,7 @@
 
 .search-form__heading {
   font-size: 21px;
+  margin-left: -3px;
   margin-top: 27px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
@@ -558,7 +560,8 @@
       margin-top: 39px; }
 
   #see-partners {
-    width: 191px; }
+    width: 191px;
+    margin-top: 0px; }
 
   .see-partners {
     margin: 18px auto;
@@ -588,7 +591,7 @@
     margin-top: 17px; }
 
   .search-form__heading {
-    margin-top: 74px; }
+    margin-top: 71px; }
 
   .search-form__heading-small {
     margin-top: 32px; }
@@ -669,7 +672,7 @@
     font-size: 24px;
     width: 500px; }
 
-  sign {
+  .sign {
     margin-right: 0; }
 
   .content {
@@ -762,6 +765,9 @@
     margin-top: 22px;
     margin-left: -2px; }
 
+  #see-partners {
+    margin-top: 0px; }
+
   /*------------------  masonry -------------------*/
   .masonry-layout {
     width: 100%;
@@ -778,6 +784,9 @@
   .search-form__sarea {
     margin-left: 262px; }
 
+  .search-form__heading {
+    margin-top: 76px; }
+
   /*------------------  footer -------------------*/
   .footer {
     height: 150px; }
@@ -786,7 +795,7 @@
       margin-top: 12px; }
     .footer__companies {
       margin-left: 97px;
-      margin-top: 2px; }
+      margin-top: 1px; }
     .footer__partners {
       margin-left: 93px; }
 
